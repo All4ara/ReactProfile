@@ -1,0 +1,10 @@
+.Banner{
+    height: 45rem;
+}
+.car-caption{
+    margin: 3rem 1rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+    text-shadow: 3px 4px black;
+    background-color: rgba(162, 163, 163, 0.3);
+}

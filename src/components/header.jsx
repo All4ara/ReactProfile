@@ -12,16 +12,12 @@ class Header extends Component {
                         {/* <img className="logo" src={Logo} alt='logo' /> */}
                         Ariel Elazarov
                     </Nav.Link>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
+                    <Navbar.Toggle  aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse bg="dark" id="responsive-navbar-nav">
                         <Nav className="ml-auto text-center ">
-                            <span className="spinner-grow spinner-grow-sm mt-3" role="status"></span>
                             <Nav.Link href="#About" className="text-white nav-links">About Me</Nav.Link>
-                            <span className="spinner-grow spinner-grow-sm mt-3" role="status"></span>
                             <Nav.Link href="#Experience" className="text-white nav-links">Experience</Nav.Link>
-                            <span className="spinner-grow spinner-grow-sm mt-3" role="status"></span>
                             <Nav.Link href="#Projects" className="text-white nav-links">Projects</Nav.Link>
-                            <span className="spinner-grow spinner-grow-sm mt-3" role="status"></span>
                             <Nav.Link href="#Contact" className="text-white nav-links">Contact Me</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
