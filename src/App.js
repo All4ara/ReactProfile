@@ -4,7 +4,7 @@ import Header from './components/header';
 import Banner from './components/banner';
 import Social from './components/socialNav';
 import About from './components/aboutme';
-
+import Me from './components/me';
 function App() {
   return (
     <div className="App">
@@ -13,7 +13,8 @@ function App() {
       <Banner/>
       <Social/>
       <About/>
-
+      <Me/>
+      <hr className="bg-dark"/>
     </div>
   );
 }
