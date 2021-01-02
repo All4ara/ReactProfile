@@ -5,6 +5,9 @@ import Banner from './components/banner';
 import Social from './components/socialNav';
 import About from './components/aboutme';
 import Me from './components/me';
+import MyCity from './components/myCity';
+import Projects from './components/projects';
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +18,9 @@ function App() {
       <About/>
       <Me/>
       <hr className="bg-dark"/>
+      <MyCity/>
+      <hr className="bg-dark"/>
+      <Projects/>
     </div>
   );
 }
