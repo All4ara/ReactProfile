@@ -7,6 +7,7 @@ import About from './components/aboutme';
 import Me from './components/me';
 import MyCity from './components/myCity';
 import Projects from './components/projects';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <MyCity/>
       <hr className="bg-dark"/>
       <Projects/>
+      <Footer/>
     </div>
   );
 }

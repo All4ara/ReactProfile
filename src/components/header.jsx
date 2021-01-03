@@ -16,9 +16,8 @@ class Header extends Component {
                     <Navbar.Collapse bg="dark" id="responsive-navbar-nav">
                         <Nav className="ml-auto text-center ">
                             <Nav.Link href="#About" className="text-white nav-links">About Me</Nav.Link>
-                            <Nav.Link href="#Experience" className="text-white nav-links">Experience</Nav.Link>
                             <Nav.Link href="#Projects" className="text-white nav-links">Projects</Nav.Link>
-                            <Nav.Link href="#Contact" className="text-white nav-links">Contact Me</Nav.Link>
+                            <Nav.Link href="#Contact" className="text-white nav-links"><a className="text-white" href="mailto:+ariel.elazarov@icloud.com">Contact Me</a></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

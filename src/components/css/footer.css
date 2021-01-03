@@ -1,0 +1,19 @@
+.footer{
+    background: linear-gradient(to right, #f2f2f2, steelblue);
+}
+
+.a-logo{
+    height: 3.5rem;
+    margin: 1.5rem auto;
+}
+
+.a-logo {
+    animation: logoSpin 5s infinite;
+  }
+  
+  @keyframes logoSpin {
+    
+    100% {
+      transform: rotate(21600deg);
+    }
+  }
