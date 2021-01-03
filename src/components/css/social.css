@@ -7,3 +7,18 @@
 .social-icons{
     height: 2rem;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+    .social-icons {
+      animation: App-logo-spin infinite 3s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+}
