@@ -28,7 +28,7 @@ const breakPoints = [
 
 const Projects = () => {
     return (
-        <div className="mt-5 mb-5">
+        <div id="Projects" className="projects mt-5 mb-5">
            <div className="text-right">
                 <h1 className="text-center ">Projects</h1>
                 

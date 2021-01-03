@@ -4,7 +4,7 @@ import Me from '../components/public/images/me.jpeg'
 import Me2 from '../components/public/images/me2.jpeg'
 const My = () => {
     return (
-        <div className="container">
+        <div className="container pt-5">
             <div className="row">
                 <div className="col-12 col-lg-4 mx-lg-auto me-container">
                     <div className="flip-card-container">
@@ -23,7 +23,7 @@ const My = () => {
                 
                 <div className="col-lg-6 my-lg-auto">
                     <h1 className="font-weight-bold mt-3">My Philosophy</h1>
-                    <p className="">"First solve the problem, then start coding."</p>
+                    <p className="pb-5">"First solve the problem, then start coding."</p>
                 </div>
 
                 

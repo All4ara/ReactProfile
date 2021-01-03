@@ -1,8 +1,8 @@
 *{
     font-family: 'Audiowide', cursive;
 }
-.nav-bar{
-    background: linear-gradient(to right, #f2f2f2, steelblue);
+.nav-bar-top{
+    background: linear-gradient(to top, #f2f2f2, steelblue);
     box-shadow: 0 0 .8rem 0 rgba(0, 0, 0, .9);
     letter-spacing: .1rem;
     text-transform: uppercase;
@@ -13,6 +13,7 @@
 .nav-links{
     font-size: 1.3rem;
 }
+
 .logo{
     width: 5rem;
 }

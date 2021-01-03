@@ -14,8 +14,8 @@ library.add(fab)
 class Social extends Component {
     render() {
         return (
-            <div id="About">
-                <Navbar className="nav-bar sticky">
+            <div>
+                <Navbar className="nav-bar-bottom fixed-bottom">
                         <Nav className="m-auto text-center container">
                             <Nav.Link href="https://www.linkedin.com/in/ariel-elazarov-9a178415a/" target="_blank" className=""><img src={Linkedin} alt="" className="social-icons"/></Nav.Link>
                             <Nav.Link href="https://twitter.com/psilocybinist" target="_blank" className=""><img src={Twitter} alt="" className="social-icons"/></Nav.Link>

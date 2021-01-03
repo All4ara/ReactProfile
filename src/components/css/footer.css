@@ -1,19 +1,26 @@
 .footer{
-    background: linear-gradient(to right, #f2f2f2, steelblue);
+    background: linear-gradient(to top, #f2f2f2, steelblue);
+    
 }
 
 .a-logo{
     height: 3.5rem;
-    margin: 1.5rem auto;
+    margin: .5rem;
+    animation: logoSpin 5s infinite;
 }
 
-.a-logo {
-    animation: logoSpin 5s infinite;
-  }
-  
-  @keyframes logoSpin {
-    
+.email{
+    color: black;
+}
+.email:hover,
+.email:active{
+    color: rgb(0, 255, 157);
+}
+
+@keyframes logoSpin {
+
     100% {
-      transform: rotate(21600deg);
+        transform: rotate(21600deg);
     }
-  }
+}
+
