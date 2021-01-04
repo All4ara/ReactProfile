@@ -17,10 +17,10 @@
     color: rgb(0, 255, 157);
 }
 
-@keyframes logoSpin {
+/* @keyframes logoSpin {
 
     100% {
         transform: rotate(21600deg);
     }
-}
+} */
 
