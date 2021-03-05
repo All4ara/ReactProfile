@@ -38,7 +38,7 @@ const Projects = () => {
                         <h4 className="text-left">Inside the Backlot</h4>
                         <img src={Pro8} alt="Web 3" className="pro-pic"/>
                         <p className="text-left">Reviews on the latest and greats content from the Tv and Film industry. Check out the podcast.</p>
-                        <a href="https://insidethebacklot.netlify.app/home" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
+                        <a href="https://insidebacklot.netlify.app/home" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
                     </div>
                     </Project>
                     <Project>
