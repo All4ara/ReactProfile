@@ -35,7 +35,7 @@ const Projects = () => {
                 <Carousel breakPoints={breakPoints}>
                     <Project>
                     <div className="">
-                        <h4 className="text-left">Metropolitan brokers NY</h4>
+                        <h4 className="text-left">Metro Brokers NY</h4>
                         <img src={Pro5} alt="Web 3" className="pro-pic"/>
                         <p className="text-left">Top of the line real estate company in the metropolitan area.</p>
                         <a href="https://www.metropolitanbrokersny.com/" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
