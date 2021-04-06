@@ -35,6 +35,14 @@ const Projects = () => {
                 <Carousel breakPoints={breakPoints}>
                     <Project>
                     <div className="">
+                        <h4 className="text-left">Metropolitan brokers NY</h4>
+                        <img src={Pro8} alt="Web 3" className="pro-pic"/>
+                        <p className="text-left">Top of the line real estate company in the metropolitan area.</p>
+                        <a href="https://www.metropolitanbrokersny.com/" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
+                    </div>
+                    </Project>
+                    <Project>
+                    <div className="">
                         <h4 className="text-left">Inside the Backlot</h4>
                         <img src={Pro8} alt="Web 3" className="pro-pic"/>
                         <p className="text-left">Reviews on the latest and greats content from the Tv and Film industry. Check out the podcast.</p>
@@ -79,14 +87,6 @@ const Projects = () => {
                         <img src={Pro3} alt="Web 3" className="pro-pic"/>
                         <p className="text-left">A gallery of several speices of succulents and a guied to growing your own.</p>
                         <a href="https://sheepshead-succulents.herokuapp.com/index.html#page-top" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
-                    </div>
-                    </Project>
-                    <Project>
-                    <div className="">
-                        <h4 className="text-left">Space Force</h4>
-                        <img src={Pro5} alt="Web 3" className="pro-pic"/>
-                        <p className="text-left">No Ewoks were harmed in the making of this adventure. My the force be with you!</p>
-                        <a href="https://all4ara.github.io/Portfilio-game/" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
                     </div>
                     </Project>
                     <Project>
