@@ -83,14 +83,6 @@ const Projects = () => {
                     </Project>
                     <Project>
                     <div className="">
-                        <h4 className="text-left">So Succulents</h4>
-                        <img src={Pro3} alt="Web 3" className="pro-pic"/>
-                        <p className="text-left">A gallery of several speices of succulents and a guied to growing your own.</p>
-                        <a href="https://sheepshead-succulents.herokuapp.com/index.html#page-top" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
-                    </div>
-                    </Project>
-                    <Project>
-                    <div className="">
                         <h4 className="text-left">FutureX</h4>
                         <img src={Pro7} alt="Web 3" className="pro-pic"/>
                         <p className="text-left">FutureX a SpaceX program that allows you to be part of the history of space exploration.</p>
