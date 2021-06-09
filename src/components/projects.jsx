@@ -5,7 +5,6 @@ import Project from '../components/project';
 import '../components/css/projects.css';
 import Pro1 from '../components/public/images/project1.png'
 import Pro2 from '../components/public/images/project2.png'
-import Pro3 from '../components/public/images/project3.png'
 import Pro4 from '../components/public/images/project4.jpeg'
 import Pro5 from '../components/public/images/project5.png'
 import Pro6 from '../components/public/images/project6.png'
