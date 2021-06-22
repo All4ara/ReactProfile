@@ -23,7 +23,7 @@ function App() {
       <MyCity/>
       <hr className="bg-dark"/>
       <div className=" container-fluid mt-5 mb-5 p-5 carousel body">
-        <h1 className="slider_title">Projects</h1>
+        <h1 className="mb-5">Projects</h1>
         <ImgSlider/>
       </div>
       
