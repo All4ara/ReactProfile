@@ -7,6 +7,7 @@ import About from './components/aboutme';
 import Me from './components/me';
 import MyCity from './components/myCity';
 import Projects from './components/projects';
+import ImgSlider from './components/slider';
 import Footer from './components/footer';
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
       <hr className="bg-dark"/>
       <MyCity/>
       <hr className="bg-dark"/>
-      <Projects/>
+      <ImgSlider/>
+      {/* <Projects/> */}
       <Footer/>
     </div>
   );
