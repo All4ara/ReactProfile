@@ -8,8 +8,9 @@ import Pro2 from '../components/public/images/project2.png'
 import Pro4 from '../components/public/images/project4.jpeg'
 import Pro5 from '../components/public/images/project5.png'
 import Pro6 from '../components/public/images/project6.png'
-import Pro7 from '../components/public/images/project7.png'
 import Pro8 from '../components/public/images/project8.png'
+import Pro9 from '../components/public/images/project9.png'
+
 
 import '../components/css/slider.css';
 
@@ -61,6 +62,21 @@ const ImgSlider = () => {
                         <div className="d-flex justify-content-around">
                             <a href="https://github.com/All4ara/BacklotMERNFrontend" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
                             <a href="https://www.insidebacklot.com/" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="card-wrapper">
+                <div className="card cardy">
+                    <div className="card-image">
+                        <img className="img" alt="Property Listing" src={Pro9} />
+                    </div>
+                    <div className="details">
+                        <h5>Kraftd</h5>
+                        <h6 className="m-3">Social media platfrom for artist, creators, and all custom crafts.</h6>
+                        <div className="d-flex justify-content-around">
+                            <a href="https://github.com/All4ara/KRAFTDProject" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
+                            <a href="https://kraftd.netlify.app/posts" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
                         </div>
                     </div>
                 </div>
