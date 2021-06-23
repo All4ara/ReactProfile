@@ -6,7 +6,6 @@ import Social from './components/socialNav';
 import About from './components/aboutme';
 import Me from './components/me';
 import MyCity from './components/myCity';
-import Projects from './components/projects';
 import ImgSlider from './components/slider';
 import Footer from './components/footer';
 
@@ -26,8 +25,6 @@ function App() {
         <h1 className="mb-5">Projects</h1>
         <ImgSlider/>
       </div>
-      
-      {/* <Projects/> */}
       <Footer/>
     </div>
   );
