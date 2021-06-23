@@ -43,7 +43,7 @@ const ImgSlider = () => {
                         <h5>Metropolitan Brokers NY</h5>
                         <h6 className="m-3">Top of the line real estate company in the metropolitan area.</h6>
                         <div className="d-flex justify-content-around mt-4">
-                            <a href="https://www.metropolitanbrokersny.com/" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
+                            <a href="https://github.com/All4ara/MetroFrontend" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
                             <a href="https://www.metropolitanbrokersny.com/" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ const ImgSlider = () => {
                         <h5>Inside the Backlot</h5>
                         <h6 className="m-3">Reviews on the latest and greats content from the Tv and Film industry. Check out the podcast.</h6>
                         <div className="d-flex justify-content-around">
-                            <a href="https://www.metropolitanbrokersny.com/" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
+                            <a href="https://github.com/All4ara/BacklotMERNFrontend" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
                             <a href="https://www.insidebacklot.com/" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
                         </div>
                     </div>
@@ -74,7 +74,7 @@ const ImgSlider = () => {
                         <h5>The Vault</h5>
                         <h6 className="m-3">Turn based anime inspired fighting game. Stay tuned for more characters comming soon...</h6>
                         <div className="d-flex justify-content-around">
-                            <a href="https://www.metropolitanbrokersny.com/" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
+                            <a href="https://github.com/All4ara/game-concept" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
                             <a href="https://all4ara.github.io/game-concept/" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ const ImgSlider = () => {
                         <h5>Mission Earth</h5>
                         <h6 className="m-3">Greetings martian, out mission is clear get to Earth in one piece. Godspeed Soldier!</h6>
                         <div className="d-flex justify-content-around">
-                            <a href="https://www.metropolitanbrokersny.com/" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
+                            <a href="https://github.com/All4ara/MissionEarth" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
                             <a href="https://mission-earth.herokuapp.com/index.html" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
                         </div>
                     </div>
@@ -104,7 +104,7 @@ const ImgSlider = () => {
                         <h5>The Green Path</h5>
                         <h6 className="m-3">An informational guide to a plant based diet and all the rewards of a healthy lifestyle.</h6>
                         <div className="d-flex justify-content-around">
-                            <a href="https://www.metropolitanbrokersny.com/" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
+                            <a href="https://github.com/All4ara/TheGreenPath" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
                             <a href="https://n8l1hr.mimo.run/index.html" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
                         </div>
                     </div>
@@ -119,7 +119,7 @@ const ImgSlider = () => {
                         <h5>Premium Plants</h5>
                         <h6 className="m-3">A Medical Cannabis Dispensary providing patients with steps to get started.</h6>
                         <div className="d-flex justify-content-around">
-                            <a href="https://www.metropolitanbrokersny.com/" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
+                            <a href="https://github.com/All4ara/PremiumPlants" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
                             <a href="http://premiplants.herokuapp.com/home.html" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
                         </div>
                     </div>
