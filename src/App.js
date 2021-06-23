@@ -20,9 +20,9 @@ function App() {
       <Me/>
       <hr className="bg-dark"/>
       <MyCity/>
-      <hr className="bg-dark"/>
+      <hr className="bg-dark "/>
       <div className=" container-fluid mt-5 mb-5 p-5 carousel body">
-        <h1 className="mb-5">Projects</h1>
+        <h1 className="title mt-5">Projects</h1>
         <ImgSlider/>
       </div>
       <Footer/>
