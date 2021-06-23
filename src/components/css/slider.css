@@ -48,7 +48,7 @@
 
 .details {
   position: absolute;
-  bottom: 45px;
+  bottom: 58px;
   left: 0;
   background: #fff;
   width: 100%;
@@ -56,4 +56,11 @@
   z-index: 1;
   padding: 3px;
   transition: 0.6s;
+}
+
+.details h5 {
+  font-size: 1rem;
+}
+.details h6 {
+  font-size: 0.8rem;
 }
