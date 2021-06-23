@@ -32,8 +32,9 @@
   transition: 0.5s;
 }
 
-.card-image:hover {
-  transform: translateY(-140px);
+.card-image:hover,
+.card-image:active {
+  transform: translateY(-160px);
   transition: all 0.9s;
   opacity: 0.4;
   transition: 0.5s;
@@ -45,43 +46,9 @@
   object-fit: cover;
 }
 
-.social-icons {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 3;
-  display: flex;
-}
-
-li {
-  /* list-style: none; */
-}
-a {
-  position: relative;
-  display: block;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  background: #fff;
-  font-size: 23px;
-  color: #333;
-  font-weight: bold;
-  margin: 0 6px;
-  transition: 0.4s;
-  transform: translateY(200px);
-  opacity: 0;
-}
-
-.social-icons li a:hover {
-  transform: translateY(0px);
-  opacity: 1;
-}
-
 .details {
   position: absolute;
-  bottom: 15px;
+  bottom: 45px;
   left: 0;
   background: #fff;
   width: 100%;
@@ -89,9 +56,4 @@ a {
   z-index: 1;
   padding: 3px;
   transition: 0.6s;
-}
-
-.details h6 {
-  font-family: "Playfair Display SC", serif;
-  font-weight: 700;
 }

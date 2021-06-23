@@ -3,6 +3,9 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+import Pro1 from '../components/public/images/project1.png'
+import Pro2 from '../components/public/images/project2.png'
+import Pro4 from '../components/public/images/project4.jpeg'
 import Pro5 from '../components/public/images/project5.png'
 import Pro6 from '../components/public/images/project6.png'
 import Pro7 from '../components/public/images/project7.png'
@@ -36,14 +39,29 @@ const ImgSlider = () => {
                     <div className="card-image">
                         <img className="img" alt="Property Listing" src={Pro5} />
                     </div>
-                    <ul className="social-icons">
-                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-github"></i></a></li>
-                    </ul>
                     <div className="details">
-                        <h2>John Doe <span className="job-title">UI Developer</span></h2>
+                        <h5>Metropolitan Brokers NY</h5>
+                        <h6 className="m-3">Top of the line real estate company in the metropolitan area.</h6>
+                        <div className="d-flex justify-content-around mt-4">
+                            <a href="https://www.metropolitanbrokersny.com/" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
+                            <a href="https://www.metropolitanbrokersny.com/" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
+                        </div>
+                    </div>
+                        
+                </div>
+            </div>
+            <div className="card-wrapper">
+                <div className="card cardy">
+                    <div className="card-image">
+                        <img className="img" alt="Property Listing" src={Pro8} />
+                    </div>
+                    <div className="details">
+                        <h5>Inside the Backlot</h5>
+                        <h6 className="m-3">Reviews on the latest and greats content from the Tv and Film industry. Check out the podcast.</h6>
+                        <div className="d-flex justify-content-around">
+                            <a href="https://www.metropolitanbrokersny.com/" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
+                            <a href="https://www.insidebacklot.com/" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -52,46 +70,58 @@ const ImgSlider = () => {
                     <div className="card-image">
                         <img className="img" alt="Property Listing" src={Pro6} />
                     </div>
-                    <ul className="social-icons">
-                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-github"></i></a></li>
-                    </ul>
                     <div className="details">
-                        <h2>John Doe <span className="job-title">UI Developer</span></h2>
+                        <h5>The Vault</h5>
+                        <h6 className="m-3">Turn based anime inspired fighting game. Stay tuned for more characters comming soon...</h6>
+                        <div className="d-flex justify-content-around">
+                            <a href="https://www.metropolitanbrokersny.com/" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
+                            <a href="https://all4ara.github.io/game-concept/" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div className="card-wrapper">
                 <div className="card cardy">
                     <div className="card-image">
-                        <img className="img" alt="Property Listing" src={Pro8} />
+                        <img className="img" alt="Property Listing" src={Pro4} />
                     </div>
-                    <ul className="social-icons">
-                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-github"></i></a></li>
-                    </ul>
                     <div className="details">
-                        <h2>John Doe <span className="job-title">UI Developer</span></h2>
+                        <h5>Mission Earth</h5>
+                        <h6 className="m-3">Greetings martian, out mission is clear get to Earth in one piece. Godspeed Soldier!</h6>
+                        <div className="d-flex justify-content-around">
+                            <a href="https://www.metropolitanbrokersny.com/" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
+                            <a href="https://mission-earth.herokuapp.com/index.html" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div className="card-wrapper">
                 <div className="card cardy">
                     <div className="card-image">
-                        <img className="img" alt="Property Listing" src={Pro7} />
+                        <img className="img" alt="Property Listing" src={Pro1} />
                     </div>
-                    <ul className="social-icons">
-                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-github"></i></a></li>
-                    </ul>
                     <div className="details">
-                        <h2>John Doe <span className="job-title">UI Developer</span></h2>
+                        <h5>The Green Path</h5>
+                        <h6 className="m-3">An informational guide to a plant based diet and all the rewards of a healthy lifestyle.</h6>
+                        <div className="d-flex justify-content-around">
+                            <a href="https://www.metropolitanbrokersny.com/" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
+                            <a href="https://n8l1hr.mimo.run/index.html" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="card-wrapper">
+                <div className="card cardy">
+                    <div className="card-image">
+                        <img className="img" alt="Property Listing" src={Pro2} />
+                    </div>
+                    <div className="details">
+                        <h5>Premium Plants</h5>
+                        <h6 className="m-3">A Medical Cannabis Dispensary providing patients with steps to get started.</h6>
+                        <div className="d-flex justify-content-around">
+                            <a href="https://www.metropolitanbrokersny.com/" target="_blank" className="btn btn-outline-dark btn-md">GitHub</a>
+                            <a href="http://premiplants.herokuapp.com/home.html" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
+                        </div>
                     </div>
                 </div>
             </div>
