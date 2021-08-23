@@ -30,6 +30,7 @@
   z-index: 2;
   background-color: #000;
   transition: 0.5s;
+  object-fit: cover;
 }
 
 .card-image:hover,
