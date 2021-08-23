@@ -10,6 +10,8 @@ import Pro5 from '../components/public/images/project5.png'
 import Pro6 from '../components/public/images/project6.png'
 import Pro8 from '../components/public/images/project8.png'
 import Pro9 from '../components/public/images/project9.png'
+import Pro10 from '../components/public/images/project10.png'
+
 
 
 import '../components/css/slider.css';
@@ -35,6 +37,22 @@ const ImgSlider = () => {
 
     return (
         <Slider {...settings}>
+            <div className="card-wrapper">
+                <div className="card cardy">
+                    <div className="card-image">
+                        <img className="img" alt="Property Listing" src={Pro10} />
+                    </div>
+                    <div className="details">
+                        <h5>Full Of Hits</h5>
+                        <h6 className="m-3">Visit full of hits on Whatnot and watch the live breaks to get a chance at your favorit collectable cards.</h6>
+                        <div className="d-flex justify-content-around mt-4">
+                            <a href="https://www.instagram.com/fullofhits_cards/" target="_blank" className="btn btn-outline-dark btn-md">Instagram</a>
+                            <a href="https://fullofhits.com/" target="_blank" className="btn btn-outline-dark btn-md">Visit Site</a>
+                        </div>
+                    </div>
+                        
+                </div>
+            </div>
             <div className="card-wrapper">
                 <div className="card cardy">
                     <div className="card-image">
